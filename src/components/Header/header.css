@@ -1,0 +1,84 @@
+.logo{
+    width: 200px;
+    height: auto;
+  position: absolute;  
+  bottom: 84%;
+  }
+  
+
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+    height: 120px;
+    margin: 0;
+    padding: 0;
+    box-shadow: rgba(0, 0, 0, 0.31) 0px 0px 0px 0px;
+  
+  }
+  
+  a:hover{
+    color: red;
+    transition: ease-in-out 0.3s;
+  }
+  .navbar ul li{
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 23px;
+    font-weight: 510;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    color: rgb(206, 40, 40);
+  }
+  
+  .navbar ul li:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    transition: 0.5s ease;
+  }
+  
+  a{
+    color: rgb(229, 224, 224);
+  }
+  
+  .active{
+    margin-left: 26px;
+  }
+ 
+  .Signuph{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    top: 4%;
+    left: 88%;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    font-weight: 520;
+    color: rgb(251, 251, 251);
+  }
+
+  
+  .Signuph:hover{
+    background-color:rgb(181, 24, 24) ;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+    transform: scale(1.04);
+    color: white;
+    ;
+  }
+
+  .navcontainer{
+    background-color: rgb(1, 1, 1);
+    width: 55%;
+    z-index: 1;
+    position: absolute;
+    right: 21.3%;
+    top: 9%;
+    border-radius: 35px;
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 20px;
+    
+
+  }
